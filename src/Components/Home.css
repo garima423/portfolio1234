@@ -1,0 +1,70 @@
+.main {
+  background-image: url("./images/bgi.jpg");
+  height: 150vh;
+  width: 200vh;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.connect {
+  box-shadow: 10px 10px 10px 2px grey;
+}
+.connect:hover {
+  background-color: black;
+  color: white;
+}
+h4 {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 61%;
+}
+.name h1 {
+  font-size: 5rem;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 60%;
+  font-weight: bolder;
+}
+.links {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 60%;
+}
+.links span {
+  margin-left: 10px;
+}
+.designation {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 50%;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    background-image: url("./images/bgi.jpg");
+    height: 700px;
+    width: 700px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .name h1 {
+    font-size: 5rem;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 30%;
+    font-weight: bolder;
+  }
+  .designation {
+    display: none;
+  }
+  h4 {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 40%;
+  }
+  .links {
+    margin-top: 35%;
+    margin-left: 40%;
+  }
+}
